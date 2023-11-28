@@ -14,11 +14,18 @@ nav {
 }
 
 #kw-logo > img {
-  height: 30px;
+  height: 20px;
 }
 
 #cart-icon > img {
-  height: 30px;
+  height: 20px;
+  position: relative;
+  bottom:10px;
+}
+h1{
+  font-size: small;
+  position: relative;
+  bottom:7px;
 }
 
 #cart-icon > h2 {
@@ -69,6 +76,9 @@ nav {
   border-radius: 5px;
   margin-left: 65px;
   margin-top: -45px;
+  position: relative;
+  left:150px;
+  bottom: 20px;
 }
 
 .add-button > img {
@@ -143,9 +153,43 @@ footer > h4 {
 #p1 {
   padding-left: 20px;
 }
+h3{
+  position:relative;
+  bottom:20px;
+}
 h4{
     color:white;
 }
 h2{
-    font-size: small;
+  position: relative;
+  left:80px;
+  bottom:10px;
+  font-size: 20px;
+  
+}
+@media(max-width:600px){
+  #book-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .book-card{
+    width:250px;
+  }
+  #games-section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .games-card{
+    width:300px;
+  }
+  #craft-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .craft-card{
+    width:300px
+  }
 }
